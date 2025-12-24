@@ -1,15 +1,17 @@
 # rock-paper-scissors
 
-(insert image here of completed webpage?)
+<strong>The final product: </strong>
+<img src="./images/finalImg.png" width = 1000 height = 1500>
 
 what is it:
-- a game of rock paper scissors that the user can play against the computer
+- a game of rock paper scissors, played entirely on the console
 
 How does it work:
-- game goes for 5 rounds, where the user inputs an option (of rock, paper, or scissors) and sees if they win against the computer's randomized choice.
+- user inputs an option of rock, paper, or scissors and sees if they win against the computer's randomized choice.
+- This goes until one of them reaches a score of 5, at which point the game ends
 
 skills practiced:
--practicing javascript basics
-  - i.e. function calling, linking to webpage
+- practicing javascript basics
+  - i.e. function calling, regex, loops
 - atomic commits
 - having an actually usable readme ;)
