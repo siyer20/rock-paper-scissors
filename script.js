@@ -14,6 +14,10 @@ function getComputerChoice(){
 //function to get user's play
 let getHumanChoice = () => prompt("What's your play?");
 
+//function for a single round of gameplay
+function playRound (humanChoice, computerChoice){
+}
+
 //declaring global score variables
 let humanScore = 0;
 let compScore=0;
