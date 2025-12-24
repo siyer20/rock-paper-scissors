@@ -1,5 +1,3 @@
-console.log("Hello world");
-
 function getComputerChoice(){
     switch(Math.floor(Math.random()*10)%3){
         case 0:
