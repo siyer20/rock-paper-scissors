@@ -10,3 +10,5 @@ function getComputerChoice(){
             return "scissors"
     }
 }
+
+let getHumanChoice = () => prompt("What's your play?");
