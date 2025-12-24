@@ -21,7 +21,14 @@ function playRound (humanChoice, computerChoice){
     if (humanChoice == computerChoice){
         return console.log("It's a tie!");
     }
+    else if ((humanChoice == "rock" && computerChoice == "scissors") ||
+             (humanChoice == "paper" && computerChoice == "rock") ||
+             (humanChoice == "scissors" && computerChoice == "paper")){
+        humanScore++;
+        return console.log(`You win! ${humanChoice} beats ${computerChoice}`);
+    }
 }
+
 
 //declaring global score variables
 let humanScore = 0;
