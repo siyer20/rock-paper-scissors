@@ -38,7 +38,17 @@ function playRound (humanChoice, computerChoice){
     }
 }
 
-
 //declaring global score variables
 let humanScore = 0;
 let compScore=0;
+
+//loop to play this game!
+
+console.log("Welcoe to Rock, Paper, Scissors! First to 5 wins!")
+
+while (humanScore < 5 && compScore < 5){
+    let humanChoice = getHumanChoice();
+    let computerChoice = getComputerChoice();
+    playRound(humanChoice, computerChoice);
+    console.log(`Score - You: ${humanScore}, Computer: ${compScore}`);
+}
