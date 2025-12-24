@@ -33,6 +33,9 @@ function playRound (humanChoice, computerChoice){
         compScore++;
         return console.log(`You lose! ${computerChoice} beats ${humanChoice}`);
     }
+    else{
+        return console.log("Invalid input! Please enter rock, paper, or scissors.");
+    }
 }
 
 
