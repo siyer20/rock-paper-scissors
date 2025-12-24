@@ -44,7 +44,7 @@ let compScore=0;
 
 //loop to play this game!
 
-console.log("Welcoe to Rock, Paper, Scissors! First to 5 wins!")
+console.log("Welcome to Rock, Paper, Scissors! First to 5 wins!")
 
 while (humanScore < 5 && compScore < 5){
     let humanChoice = getHumanChoice();
