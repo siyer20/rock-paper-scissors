@@ -16,7 +16,11 @@ let getHumanChoice = () => prompt("What's your play?");
 
 //function for a single round of gameplay
 function playRound (humanChoice, computerChoice){
-    hChoice = humanChoice.toLowerCase().trim();
+    humanChoice = humanChoice.toLowerCase().trim();
+
+    if (humanChoice == computerChoice){
+        return console.log("It's a tie!");
+    }
 }
 
 //declaring global score variables
