@@ -27,6 +27,12 @@ function playRound (humanChoice, computerChoice){
         humanScore++;
         return console.log(`You win! ${humanChoice} beats ${computerChoice}`);
     }
+    else if ((humanChoice == "rock" && computerChoice == "paper") ||
+             (humanChoice == "paper" && computerChoice == "scissors") ||
+             (humanChoice == "scissors" && computerChoice == "rock")){
+        compScore++;
+        return console.log(`You lose! ${computerChoice} beats ${humanChoice}`);
+    }
 }
 
 
