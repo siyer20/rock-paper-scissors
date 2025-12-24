@@ -9,5 +9,11 @@ function getComputerChoice(){
             return "scissors"
     }
 
-}//function to get user's play
+}
+
+//function to get user's play
 let getHumanChoice = () => prompt("What's your play?");
+
+//declaring global score variables
+let humanScore = 0;
+let compScore=0;
