@@ -16,6 +16,7 @@ let getHumanChoice = () => prompt("What's your play?");
 
 //function for a single round of gameplay
 function playRound (humanChoice, computerChoice){
+    hChoice = humanChoice.toLowerCase().trim();
 }
 
 //declaring global score variables
