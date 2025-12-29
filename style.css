@@ -34,3 +34,13 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.label{
+    text-align: center;
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
