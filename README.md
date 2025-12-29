@@ -20,4 +20,4 @@ Rock image by <a href="https://pixabay.com/users/davector-52484830/?utm_source=l
 
 Scissors image by <a href="https://pixabay.com/users/elionas-2345468/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1332795">Elias</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1332795">Pixabay</a>
 
-Paper image by <a href="https://pixabay.com/users/nagaswetha-16677069/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6030457">Naga Swetha</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6030457">Pixabay</a>
+Paper image by <a href="https://pixabay.com/users/symphysismarketing-15145075/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6769728">Symphysis Marketing</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6769728">Pixabay</a>
