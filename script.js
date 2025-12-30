@@ -10,16 +10,10 @@ function getComputerChoice(){
     }
 
 }
-let rockBtn = document.querySelector(".rockBtn");
-let paperBtn = document.querySelector(".paperBtn");
-let scissorsBtn = document.querySelector(".scissorsBtn");
-
-// //function to get user's play
-// let getHumanChoice = () => prompt("What's your play?");
 
 // //function for a single round of gameplay
-function playRound (humanChoice, computerChoice){
-    humanChoice = humanChoice.toLowerCase().trim();
+function playRound (humanChoice){
+    let computerChoice = getComputerChoice();
 
     if (humanChoice == computerChoice){
         return console.log("It's a tie!");
@@ -41,6 +35,9 @@ function playRound (humanChoice, computerChoice){
     }
 }
 
+let btns = document.querySelectorAll("button");
+
+
 // //declaring global score variables
 // let humanScore = 0;
 // let compScore=0;
@@ -56,8 +53,3 @@ function playRound (humanChoice, computerChoice){
 //     console.log(`Score - You: ${humanScore}, Computer: ${compScore}`);
 // }
 
-
-/*
-When they click one of the buttons, the game starts.
-Once the game starts, I want to keep a log of each action, as well as a running score total.
-*/
