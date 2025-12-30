@@ -52,3 +52,9 @@ function getComputerChoice(){
 //     playRound(humanChoice, computerChoice);
 //     console.log(`Score - You: ${humanScore}, Computer: ${compScore}`);
 // }
+
+
+/*
+When they click one of the buttons, the game starts.
+Once the game starts, I want to keep a log of each action, as well as a running score totl.
+*/
