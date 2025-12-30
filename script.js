@@ -10,6 +10,9 @@ function getComputerChoice(){
     }
 
 }
+let rockBtn = document.querySelector(".rockBtn");
+let paperBtn = document.querySelector(".paperBtn");
+let scissorsBtn = document.querySelector(".scissorsBtn");
 
 // //function to get user's play
 // let getHumanChoice = () => prompt("What's your play?");
@@ -56,5 +59,5 @@ function getComputerChoice(){
 
 /*
 When they click one of the buttons, the game starts.
-Once the game starts, I want to keep a log of each action, as well as a running score totl.
+Once the game starts, I want to keep a log of each action, as well as a running score total.
 */
